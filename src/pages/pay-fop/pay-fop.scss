@@ -1,0 +1,25 @@
+page-pay-fop {
+    .summary-payment {
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    .card-container {
+        margin-top: 15px;
+        margin-left: 15px;
+        span {
+            font-size: 16px;
+            color: #615d5d;
+
+        }
+        .month {
+            width: 50px;
+            padding: 5px 10px;
+        }
+        .year {
+            width: 50px;
+            padding: 5px 10px;
+        }
+
+    }
+
+}

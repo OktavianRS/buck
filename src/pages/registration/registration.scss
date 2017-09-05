@@ -1,0 +1,14 @@
+page-registration {
+    .divider {
+        font-weight: bold;
+        padding: 15px;
+    }
+    .next-page {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        span {
+            text-align: right;
+        }
+    }
+}

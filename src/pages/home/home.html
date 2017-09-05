@@ -1,14 +1,55 @@
 <ion-header>
+   <!-- hideBackButton -->
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Головна
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="ios-settings-outline"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-list>
+
+
+    <ion-item (click)="FopTaxOneClicked()">
+      <h2>Податок ФОП</h2>
+      <p>Єдиний</p>
+      <ion-icon name="ios-checkbox-outline" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item  (click)="FopTaxOneClicked()">
+      <h2>Податок ФОП</h2>
+      <p>ЄСВ</p>
+      <ion-icon name="ios-warning-outline" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item (click)="EmployeeTaxClicked()">
+      <h2>Податок з найманих працівників</h2>
+      <p>ЄСВ, ВЗ, Прибутковий податок</p>
+      <ion-icon name="ios-warning-outline" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <h2>Звітність</h2>
+      <p>Декларація Єдиний</p>
+      <ion-icon name="ios-checkbox-outline" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <h2>Звітність</h2>
+      <p>ЄС річний</p>
+      <ion-icon name="ios-checkbox-outline" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <h2>Звітність</h2>
+      <p>№ 1-ДФ</p>
+      <ion-icon name="ios-checkbox-outline" item-end></ion-icon>
+    </ion-item>
+  </ion-list>
 </ion-content>
